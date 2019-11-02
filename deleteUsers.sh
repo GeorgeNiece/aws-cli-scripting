@@ -19,7 +19,7 @@ do
         aws iam delete-access-key --user-name $users --access-key-id $access_keys
       done
    echo "Removing login profile for $users"
-   aws iam list-groups-for-user --user-name $users --output text
+   aws iam delete-login-profile --user-name $users 
    echo "Removing user $users"
    aws iam delete-user --user-name $users
 done
