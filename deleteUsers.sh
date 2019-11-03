@@ -1,5 +1,10 @@
 for users in `aws iam list-users  --output text | cut -f7`
 do 
+   for mfa_devices in `aws iam list-mfa-devices --user-name $users  --output text | cut -f3`
+   do
+        echo "Deactivating mfa device $mfa_devices for $users"
+        aws iam deactivate-mfa-device --user-name $users --serial-number $mfa_devices
+   done
    echo "Removing $users from groups"
    for groups in `aws iam list-groups-for-user --user-name $users --output text | cut -f5`
       do
