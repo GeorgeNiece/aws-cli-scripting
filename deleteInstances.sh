@@ -1,4 +1,4 @@
-for region in `aws ec2 describe-regions --output text | cut -f4`
+for region in `aws ec2 describe-regions --output text | cut -f3`
 do
   echo "Terminating region $region..."
   aws ec2 describe-instances --region $region | \
