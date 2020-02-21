@@ -10,8 +10,9 @@ echo "export AWS_ACCESS_KEY_ID=" >> ~/.bashrc
 echo "export AWS_SECRET_ACCESS_KEY=" >> ~/.bashrc
 echo "git config --global user.name 'George Niece' " >>  ~/.bashrc
 echo "git config --global user.email george.niece@gmail.com" >>  ~/.bashrc
+echo "set -o vi" >>  ~/.bashrc
 vi ~/.bashrc
-source ~/.bashrc
+.  ~/.bashrc
 ~/environment/aws-cli-scripting/listUsers.sh
 ~/environment/aws-cli-scripting/listInstances.sh
 
