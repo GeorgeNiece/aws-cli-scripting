@@ -1,0 +1,14 @@
+Removing bucket cf-templates-1soguloj4v3pl-us-west-1
+delete: s3://cf-templates-1soguloj4v3pl-us-west-1/2020051PIH-Lab-07-Mapping-Template.yml
+remove_bucket: cf-templates-1soguloj4v3pl-us-west-1
+Removing bucket cf-templates-1soguloj4v3pl-us-west-2
+delete: s3://cf-templates-1soguloj4v3pl-us-west-2/2020050FdT-Lab-06-Macro-Template.yml
+delete: s3://cf-templates-1soguloj4v3pl-us-west-2/20200500BK-Lab-06-Macro-Template.yml
+delete: s3://cf-templates-1soguloj4v3pl-us-west-2/2020050cbL-Lab-05-CR-Template.yml
+delete: s3://cf-templates-1soguloj4v3pl-us-west-2/2020050W2x-Lab-05-CR-Template.yml
+delete: s3://cf-templates-1soguloj4v3pl-us-west-2/20200507tW-Lab-06-Macro-Bucket.yml
+delete: s3://cf-templates-1soguloj4v3pl-us-west-2/2020050rVO-Lab-05-CR-Template.yml
+delete: s3://cf-templates-1soguloj4v3pl-us-west-2/2020050LRU-Lab-05-CR-Template.yml
+delete: s3://cf-templates-1soguloj4v3pl-us-west-2/2020050vcQ-Lab-06-Macro-Template.yml
+delete: s3://cf-templates-1soguloj4v3pl-us-west-2/2020050N3f-Lab-07-Mapping-Template.yml
+remove_bucket: cf-templates-1soguloj4v3pl-us-west-2
