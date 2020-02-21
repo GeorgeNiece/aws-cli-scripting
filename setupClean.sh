@@ -11,7 +11,7 @@ cat "export AWS_SECRET_ACCESS_KEY=" >> ~/.bashrc
 cat "git config --global user.name 'George Niece' " ~/.bashrc
 cat "git config --global user.email george.niece@gmail.com" ~/.bashrc
 vi ~/.bashrc
-~/environmnent/aws-cli-scripting/listUsers.sh
-~/environmnent/aws-cli-scripting/listInstances.sh
+~/environment/aws-cli-scripting/listUsers.sh
+~/environment/aws-cli-scripting/listInstances.sh
 ~/.bashrc
 
