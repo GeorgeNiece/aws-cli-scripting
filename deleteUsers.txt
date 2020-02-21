@@ -1,42 +1,14 @@
-Detaching policy arn:aws:iam::aws:policy/AdministratorAccess from  admin
-Detaching inline policies from group admin
-Removing admin from groups
-Detaching managed policies from group Administrators
-Detaching policy arn:aws:iam::aws:policy/AdministratorAccess from  Administrators
-Detaching inline policies from group Administrators
-Removing Administrators from groups
-Detaching managed policies from group admins
-Detaching policy arn:aws:iam::aws:policy/AdministratorAccess from  admins
-Detaching inline policies from group admins
-Removing admins from groups
-Detaching managed policies from group aws-big-data-admins
-Detaching policy arn:aws:iam::aws:policy/AWSLambdaFullAccess from  aws-big-data-admins
-Detaching policy arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess from  aws-big-data-admins
-Detaching policy arn:aws:iam::aws:policy/AWSCloud9Administrator from  aws-big-data-admins
-Detaching inline policies from group aws-big-data-admins
-Removing aws-big-data-admins from groups
-Detaching managed policies from group aws-big-data-users
-Detaching policy arn:aws:iam::aws:policy/AWSLambdaFullAccess from  aws-big-data-users
-Detaching policy arn:aws:iam::aws:policy/AmazonS3FullAccess from  aws-big-data-users
-Detaching policy arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess from  aws-big-data-users
-Detaching policy arn:aws:iam::aws:policy/AmazonAthenaFullAccess from  aws-big-data-users
-Detaching policy arn:aws:iam::aws:policy/AmazonElasticMapReduceFullAccess from  aws-big-data-users
-Detaching policy arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess from  aws-big-data-users
-Detaching policy arn:aws:iam::aws:policy/AWSCloud9User from  aws-big-data-users
-Detaching inline policies from group aws-big-data-users
-Removing aws-big-data-users from groups
-Detaching managed policies from group saas-admins
-Detaching policy arn:aws:iam::aws:policy/AdministratorAccess from  saas-admins
-Detaching inline policies from group saas-admins
-Removing saas-admins from groups
-
-An error occurred (DeleteConflict) when calling the DeleteGroup operation: Cannot delete entity, must remove users from group first.
-Detaching managed policies from group saas-users
-Detaching policy arn:aws:iam::aws:policy/AWSLambdaFullAccess from  saas-users
-Detaching policy arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess from  saas-users
-Detaching policy arn:aws:iam::aws:policy/AWSCloud9User from  saas-users
-Detaching inline policies from group saas-users
-Removing saas-users from groups
-
-An error occurred (DeleteConflict) when calling the DeleteGroup operation: Cannot delete entity, must remove users from group first.
-ec2-user:~/environment/aws-cli-scripting (master) $ 
+Removing saas-admin from groups
+Removing saas-admin from group saas-admins
+Detaching all policies from user saas-admin
+Deleting all access keys from user saas-admin 
+Deleting access key AKIAWKH6CN22E6ZJR4IR for  saas-admin 
+Removing login profile for saas-admin
+Removing user saas-admin
+Removing saas-user from groups
+Removing saas-user from group saas-users
+Detaching all policies from user saas-user
+Deleting all access keys from user saas-user 
+Deleting access key AKIAWKH6CN22E2SCSQGJ for  saas-user 
+Removing login profile for saas-user
+Removing user saas-user
