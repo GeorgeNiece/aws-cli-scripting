@@ -5,8 +5,8 @@ do
    echo "Processing CloudFormation stack $stack"
   if [[ "$stack" != *"cloud9"* ]];
 	then
-		echo " Removing $stack"
-		aws cloudformation delete-stack --stack-name "${stack}"
+		echo " Removing: aws cloudformation delete-stack --stack-name $stack"
+		aws cloudformation delete-stack --region $region --stack-name $stack
    else
 	echo "Not removing cloud9 $stack"
   fi
