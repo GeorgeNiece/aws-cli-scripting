@@ -1,0 +1,27 @@
+ec2-user:~/environment/aws-cli-scripting (master) $ ./deleteCloudFormationStacks.sh                                                                      
+./deleteCloudFormationStacks.sh: line 3: unexpected EOF while looking for matching ``'
+./deleteCloudFormationStacks.sh: line 15: syntax error: unexpected end of file
+ec2-user:~/environment/aws-cli-scripting (master) $ vi ./deleteCloudFormationStacks.sh
+ec2-user:~/environment/aws-cli-scripting (master) $ ./deleteCloudFormationStacks.sh
+Processing CloudFormation stack aws-cloud9-Webapplication-8d8cd09de1744608abaa8138a1992b1d
+Not removing cloud9 aws-cloud9-Webapplication-8d8cd09de1744608abaa8138a1992b1d
+Processing CloudFormation stack aws-cloud9-testenvironment-3e39179411274036a3e011a34552cf60
+Not removing cloud9 aws-cloud9-testenvironment-3e39179411274036a3e011a34552cf60
+Processing CloudFormation stack aws-cloud9-student3-cloud9-faas-840cdb196d2e4a3d846a08dc0c340df8
+Not removing cloud9 aws-cloud9-student3-cloud9-faas-840cdb196d2e4a3d846a08dc0c340df8
+Processing CloudFormation stack lab07
+ Removing lab07
+Processing CloudFormation stack arn:aws:cloudformation:us-west-2:434324532916:stack/aws-cloud9-Cleanup2-19e855589dcc441698399c4684fdafdb/850e2c80-54d4-11ea-b065-02e40fd26800
+Not removing cloud9 arn:aws:cloudformation:us-west-2:434324532916:stack/aws-cloud9-Cleanup2-19e855589dcc441698399c4684fdafdb/850e2c80-54d4-11ea-b065-02e40fd26800
+Processing CloudFormation stack arn:aws:cloudformation:us-west-2:434324532916:stack/aws-cloud9-Cleanup-9b0c793465a44a15a7347247f2a630d0/e210cf10-54ce-11ea-9d1f-06287158ecd0
+Not removing cloud9 arn:aws:cloudformation:us-west-2:434324532916:stack/aws-cloud9-Cleanup-9b0c793465a44a15a7347247f2a630d0/e210cf10-54ce-11ea-9d1f-06287158ecd0
+Processing CloudFormation stack arn:aws:cloudformation:us-west-2:434324532916:stack/macroBucket/4b9bcfd0-536b-11ea-8878-066fff45a7ea
+ Removing arn:aws:cloudformation:us-west-2:434324532916:stack/macroBucket/4b9bcfd0-536b-11ea-8878-066fff45a7ea
+Processing CloudFormation stack arn:aws:cloudformation:us-west-2:434324532916:stack/pythonStack/99f6ab60-536a-11ea-a7c6-0686cac6f814
+ Removing arn:aws:cloudformation:us-west-2:434324532916:stack/pythonStack/99f6ab60-536a-11ea-a7c6-0686cac6f814
+Processing CloudFormation stack arn:aws:cloudformation:us-west-2:434324532916:stack/test2/5412c1f0-5361-11ea-8f7a-02d0bd2cd418
+ Removing arn:aws:cloudformation:us-west-2:434324532916:stack/test2/5412c1f0-5361-11ea-8f7a-02d0bd2cd418
+Processing CloudFormation stack arn:aws:cloudformation:us-west-2:434324532916:stack/myCustomResourceStack/66d7b9b0-5359-11ea-be02-029123b1cc42
+ Removing arn:aws:cloudformation:us-west-2:434324532916:stack/myCustomResourceStack/66d7b9b0-5359-11ea-be02-029123b1cc42
+Processing CloudFormation stack arn:aws:cloudformation:us-west-2:434324532916:stack/aws-cloud9-student3-cloud9-faas-6615861ca11e423888faaa3f53d071df/ff786960-5289-11ea-89af-02ed5deec07a
+Not removing cloud9 arn:aws:cloudformation:us-west-2:434324532916:stack/aws-cloud9-student3-cloud9-faas-6615861ca11e423888faaa3f53d071df/ff786960-5289-11ea-89af-02ed5deec07a
