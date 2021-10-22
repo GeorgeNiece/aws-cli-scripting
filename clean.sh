@@ -1,7 +1,7 @@
 ./disableCloudFront.sh
 ./deleteBuckets.sh
 ./deleteCloudFormationStacks.sh
-./deleteCloudFront.sh
 ./deleteUsers.sh
 ./deleteGroups.sh
+./deleteCloudFront.sh
 ./deleteInstances.sh
