@@ -7,5 +7,6 @@ do
 		       	 aws iam delete-role --role-name $roles
     else 
 		       	 echo "not removing AWS default policy" 
+
   fi
 done
