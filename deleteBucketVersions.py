@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-BUCKET =  "aws-sam-cli-managed-default-samclisourcebucket-l1ol495czxzq"
+BUCKET =  "aws-sam-cli-managed-default-samclisourcebucket-rmyj7egg5b7m"
 import boto3
 
 s3 = boto3.resource('s3')

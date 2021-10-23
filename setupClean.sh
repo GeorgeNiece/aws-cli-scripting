@@ -2,6 +2,7 @@ mkdir $HOME/bin
 cd $HOME/bin
 wget https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64 
 mv jq-linux64 jq
+pip install boto3
 chmod 755 jq
 cd ~/environment/aws-cli-scripting 
 chmod 755 *.sh
