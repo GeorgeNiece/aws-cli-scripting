@@ -7,3 +7,5 @@ sleep 120
 ./deleteCloudFront.sh
 ./deleteDynamodbTables.sh
 ./deleteInstances.sh
+./deleteEc2SecurityGroups.sh
+./deleteEc2Snapshots.sh 
