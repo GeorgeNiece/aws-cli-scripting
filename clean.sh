@@ -1,6 +1,6 @@
 ./disableCloudFront.sh
-sleep 120 
 ./deleteBuckets.sh
+sleep 120 
 ./deleteCloudFormationStacks.sh
 ./deleteUsers.sh
 ./deleteGroups.sh
